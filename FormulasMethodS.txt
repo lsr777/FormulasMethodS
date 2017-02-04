@@ -12,5 +12,3 @@ result2 = acos(result1);
 result2 *= (180/3.1416);
 /* acos() = . . . radian, convert it to degree,
    degree = radian * (180 / pi) */
-
-
