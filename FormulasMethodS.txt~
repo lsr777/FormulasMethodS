@@ -1,0 +1,16 @@
+2D Co-Ordinate Distance ;)
+---------------------------
+d = sqrt( pow((x2 - x1), 2) + pow((y2 - y1), 2)  );
+powX = pow((x2 - x1), 2);
+powY = pow((y2 - y1), 2);
+distance = sqrt(powX + powY);
+
+how to find the angle of a triangle given 3 sides
+--------------------------------------------------
+result1 = ((b*b) + (c*c) - (a*a)) / (2 * (b*c));
+result2 = acos(result1);
+result2 *= (180/3.1416);
+/* acos() = . . . radian, convert it to degree,
+   degree = radian * (180 / pi) */
+
+
